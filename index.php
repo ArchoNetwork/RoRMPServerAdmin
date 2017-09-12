@@ -69,7 +69,6 @@ try
 			}
 			else
 			{
-				$title = 'Authorization Required';
 				$content = '<div class="login-clean">
 								<form method="post" action="?action=login">
 								<h2 class="sr-only">Login Form</h2>
@@ -101,7 +100,6 @@ try
 				'domain' => reset(explode(':',$_SERVER['HTTP_HOST'])),
 			);
 			setcookie($cookieData['name'],$cookieData['value'],$cookieData['expire'],$cookieData['path'],$cookieData['domain']);
-			$title = 'Authorization Required';
 			$content = '<div class="login-clean">
 							<form method="post" action="?action=login">
 							<h2 class="sr-only">Login Form</h2>

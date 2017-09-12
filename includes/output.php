@@ -54,25 +54,24 @@ echo <<<EOF
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Rigs of Rods Multiplayer Server Administration Panel - $title</title>
-
+	<title>RoR Server Admin Panel</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=404, target-densitydpi=high-dpi" />
-	
 	<!-- Dependency for sha1 hash -->
 	<script type="text/javascript" src="js/crypto-sha1.js"></script>
-	
 	<!-- other scripts -->
 	<script type="text/javascript" src="js/scripts.js"></script>
-	
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	
+	<link rel="stylesheet" href="Login-Form-Clean.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 	<!-- page specific -->
 	$header
 	
 	
 </head>
-<body onLoad="javascript: urlprefix='$url[prefix]'; servername='$server'; updateServerStatus('$serverstatus'); $onload "><table class="maintable" style="border-spacing: 0;">
+<body onLoad="javascript: urlprefix='$url[prefix]'; servername='$server'; updateServerStatus('$serverstatus'); $onload " style="background-color:#ececed;"><table class="maintable" style="border-spacing: 0;">
 	
 		<!--header-->
 		<tr>
