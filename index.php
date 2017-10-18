@@ -71,10 +71,10 @@ try
 			{
 				$content = '<div class="login-clean">
 								<form method="post" action="?action=login">
-								<h2 class="sr-only">Login Form</h2>
+								<h1 id="ror">Rigs of Rods <u>Panel</u></h1>
 								<div class="illustration"><i class="icon-lock"></i></div>
 								<div class="form-group">
-									<input type="password" name="password" placeholder="Password" class="form-control" />
+								<input type="password" name="password" placeholder="Password" class="form-control" />
 								</div>
 								<div class="form-group">
 									<button class="btn btn-primary btn-block" type="submit">Log In</button>
